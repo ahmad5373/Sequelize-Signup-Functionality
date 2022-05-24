@@ -15,5 +15,5 @@ app.use(express.json());
 app.use("/user", user);
 
 app.listen(PORT, () => {
-  console.log(`app is listening on : http//localhost:${PORT}`);
+  console.log(`app is listening on : http://localhost:${PORT}`);
 });
